@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis&family=Fira+Sans:ital,wght@0,400;0,500;1,300;1,400;1,500&family=Philosopher:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>Projeto Fino Gourmet Cafeteria</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <a href="index.html"><img class="logo" src="img/logo café.png"></a>
+            <h2>Fino Gourmet Cafeteria</h2>
+        </div>
+
+        <div class="mainav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quemsomos.html">Quem Somos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="faleconosco.html">Fale Conosco</a></li>
+                <li><a href="restrito.html">Acesso Restrito</a></li>
+            </ul>
+        </div>
+        <div class="contents">
+            <form name="faleconosco" method="post" onsubmit="msg();">
+              <fieldset class="grupo">
+                <legend>Fale Conosco</legend>
+    
+                <label>Informe seu nome:</label>
+                <input
+                  type="text"
+                  class="maior"
+                  name="nome"
+                  id="nome"
+                  required
+                  maxlength="50"
+                  placeholder="Digite seu nome completo..."
+                  
+                />
+                <br /><br />
+
+                <label>Informe o teu telefone</label>
+                <input type="text" name="tel" maxlength="14" placeholder="(00)00000-0000" size="12" onkeypress="mascara_tel(this)">
+                <br> <br>
+    
+                <label>Informe o assunto:</label>
+                <select class="menor" name="assunto" id="assunto">
+                  <option value="0">Selecione o Assunto</option>
+                  <option value="1">Críticas</option>
+                  <option value="2">Sugestões</option>
+                  <option value="3">Outros</option>
+                </select>
+                <br /><br />
+    
+                <label>Deixe seu recado:</label>
+                <br />
+                <textarea
+                  name="recado"
+                  class="maior"
+                  id="recado"
+                  rows="5"
+                  required
+                  maxlength="100"
+                  placeholder="Digite seu recado..."
+                ></textarea>
+                <br /><br />
+    
+                <input type="submit" name="enviar" id="enviar" value="ENVIAR" />
+                <input type="reset" name="limpar" id="limpar" value="LIMPAR" />
+              </fieldset>
+            </form>
+          </div>
+        <div class="menul">
+            <!-- Widget Previs&atilde;o de Tempo CPTEC/INPE --><iframe allowtransparency="true" marginwidth="0"
+                marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"
+                src="https://www.cptec.inpe.br/widget/widget.php?p=241&w=v&c=5e421d&f=ffffff" height="350px"
+                width="192px"></iframe><noscript>Previs&atilde;o de <a
+                    href="http://www.cptec.inpe.br/cidades/tempo/241">Rio de Janeiro/RJ</a> oferecido por <a
+                    href="http://www.cptec.inpe.br">CPTEC/INPE</a></noscript>
+            <!-- Widget Previs&atilde;o de Tempo CPTEC/INPE -->
+        </div>
+        <div class="footer">
+            <address>Página Produzida por Micael de Oliveira em 2022.</address>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript" language="javascript" src="js/funcao.js"></script>

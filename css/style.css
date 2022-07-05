@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    background-image: url("/img/pexels-pixabay-209443.jpg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.header {
+    float: left;
+    padding-top: 1%;
+    color: #5E4E3A;
+    font-size: 120%;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.container {
+    margin: 2% auto;
+    width: 60%;
+    text-align: left;
+    background: #ffffff;
+    border: 4px solid #5E421D;
+    border-radius: 1%;
+}
+
+.mainav {
+    background-color: #5E421D;
+    padding: 0 1%;
+    margin-bottom: 2%;
+    margin-top: 8%;
+}
+
+.mainav li {
+    display: inline;
+    padding: 0 1%;
+    margin-left: 2%;
+}
+
+.mainav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.mainav li a:hover {
+    text-decoration: none;
+    color: #E39F46;
+    font-size: 25px;
+    transition: 0.3s all;
+}
+
+.contents {
+    float: left;
+    width: 65%;
+    margin: 0 0 0 3%;
+}
+
+.contents p {
+    font-size: 16px;
+    text-align: justify;
+    font-size: larger;
+}
+
+.contents h2 {
+    font-size: 30px;
+}
+
+.footer {
+    clear: both;
+    background-color: #5E421D;
+    color: white;
+    text-align: right;
+    font-size: 14px;
+    padding: 1%;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+    float: left;
+    margin-top: 3%;
+}
+
+.menul {
+    float: right;
+    margin-right: 4%;
+    margin-top: 4%;
+}
+
+.carrossel {
+    display: inline-block;
+    margin-top: 4%;
+    padding: 2%;
+    border-radius: 1em;
+    background-color: #E39F46;
+}
+
+img.imgcarossel {
+    width: 150px;
+    height: 150px;
+    border-radius: 1em;
+}
+
+.mapa {
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.contents table {
+    margin-top: 2%;
+    margin-left: 26%;
+    text-align: center;
+}
+
+.zap {
+    margin-top: 1%;
+    margin-left: 40%;
+    width: 80px;
+    height: 80px;
+}
+
+img.imagem {
+    border-radius: 1em;
+    width: 210px;
+    height: 210px;
+    border: 4px solid #E39F46;
+}
+
+img.imagem:hover {
+    width: 215px;
+    height: 215px;
+    transition: 0.3s all;
+}
+
+figure.tamgaleria {
+    display: inline-block;
+    margin-left: 8%;
+    padding: 1%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.grupo {
+    font-size: 18px;
+    margin-top: 2%;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+.quemsomoslogo {
+    margin-left: 40%;
+    margin-top: 2%;
+    width: 15%;
+    height: 15%;
+}
+
+.login {
+    margin-left: 75%;
+}
+
+.restrito {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    color: #5E4E3A;
+    background-color: white;
+    border: 3px solid #5E421D;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.checkbox {
+    color: white;
+}
+
+.form-signin {
+    margin-left: 24%;
+    margin-top: 4%;
+    width: 280px;
+    height: 280px;
+    font-size: large;
+}
+
+.grupo {
+    
+    font-size: 16px;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding: 10px;
+  }
+  
+  .maior {
+    font-size: 14px;
+    width: 280px;
+    resize: none;
+  }
+  
+  .grupo input,
+  select,
+  textarea {
+    background-color: #dddddd;
+  }
+  
+  .grupo input:hover,
+  input:focus,
+  select:hover,
+  select:focus,
+  textarea:hover,
+  textarea:focus {
+    border-color: #E39F46;
+    background-color: #dddddd;
+    color: black;
+    font-weight: bold;
+  }
+
+  table,tr,td,caption{
+      border: 1px solid #5E421D;
+  }
+  
